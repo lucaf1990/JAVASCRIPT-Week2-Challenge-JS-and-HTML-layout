@@ -1,0 +1,127 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #dde5e7;
+}
+
+header div div.logo {
+  background-color: #272f38;
+  padding-left: 5px;
+  border-collapse: collapse;
+}
+
+header img {
+  height: 15px;
+  padding-top: 2px;
+}
+header div div.selectingarea {
+  background-color: #374658;
+}
+header p {
+  color: white;
+  display: inline-block;
+  font-size: 0.2em;
+  padding-left: 10px;
+  margin: 0 0 0 0;
+}
+
+header {
+  background-color: #272f38;
+}
+main div.banner {
+  text-align: center;
+  background-color: #f86103;
+  color: white;
+  font-size: 0.7em;
+  font-weight: 100;
+}
+
+main div p {
+  font-size: 0.6em;
+  font-weight: 400;
+  margin-top: 15px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  margin-bottom: 15px;
+}
+
+main div.banner1 {
+  background-image: url(./assets/bg-image.png);
+  background-size: contain;
+  text-align: center;
+  color: white;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+h5 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+main div.banner1 p {
+  margin-top: 0;
+  font-size: 0.5em;
+  font-weight: bold;
+  padding-top: 7px;
+}
+main div.imgban {
+  border-style: solid;
+  background-color: white;
+  border-color: white;
+}
+
+main div.imgban p {
+  color: #272f38;
+  font-weight: bold;
+  font-size: 0.6em;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+a {
+  color: #1e64a5;
+  text-decoration: none;
+  padding-left: 5px;
+  font-size: 0.5em;
+}
+main div.imgban img {
+  width: 22vw;
+  height: 40vh;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: rgb(233, 222, 222) 5px 5px 5px 0px;
+  margin-left: 5px;
+  border: lightgray;
+  background-color: #9ca6b1;
+}
+main div.banner-end img {
+  width: 96vw;
+  height: 35vh;
+}
+
+main h4 {
+  color: #272f38;
+  text-align: center;
+  font-size: 0.6em;
+  margin: 0;
+  font-size: 400;
+}
+
+footer {
+  background-color: #272f38;
+  text-align: center;
+  margin-top: 15px;
+}
+footer a {
+  color: white;
+  text-decoration: dashed;
+  font-weight: bold;
+  font-size: 0.4em;
+}
+footer img {
+  width: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer div.end {
+  background-color: #374658;
+}
