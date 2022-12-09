@@ -95,12 +95,22 @@ let car = {
   trims: ["sport", "turbo"],
 };
 cars.splice(3, 0, car);
-console.log(cars);
+console.log("x5" + cars);
 
+delete cars[0].trims.las;
+console.log("asdasdasdasdasdasdas" + car);
+
+console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" + cars);
 /* ESERCIZIO 7
-    Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
+    Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims",
+     sotto definito.
 */
+
 const justTrims = [];
+for (let i = 0; i < cars.length; i++) {
+  justTrims.push(cars[i].trims[0]);
+}
+console.log(justTrims);
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
