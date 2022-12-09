@@ -76,24 +76,27 @@ const cars = [
     trims: ["life", "style", "r-line"],
   },
 ];
-
-(cars.licenceplate = { licenceplate: "db542" }),
-  { licenceplate: "df874" },
-  { licenceplate: "er458" };
-
-const licenceToPush = [];
 for (let i = 0; i < cars.length; i++) {
-  const newObj = {
-    licenceplate: cars.licenceplate,
-  };
-  licenceToPush.push(newObj);
-  console.log(newObj);
+  (cars[0].licencePlate = "DF 825 GH"),
+    (cars[1].licencePlate = "TR 825 LH"),
+    (cars[0].licencePlate = "WF 825 OH");
   console.log(cars);
 }
+
 /* ESERCIZIO 6
-    Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli 
+    Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", 
+    rispettando la struttura degli 
     altri elementi. Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
+let car = {
+  brand: "bmw",
+  model: "x5",
+  color: "black",
+  trims: ["sport", "turbo"],
+};
+cars.splice(3, 0, car);
+console.log(cars);
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
